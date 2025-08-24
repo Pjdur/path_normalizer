@@ -25,11 +25,11 @@ pub trait PathNormalizeExt {
     /// # Errors
     ///
     /// Returns [`NormalizeError`] if the path attempts to traverse above its root.
-    fn normalize_lexically(&self) -> Result<PathBuf, NormalizeError>;
+    fn normalize_path(&self) -> Result<PathBuf, NormalizeError>;
 }
 
 impl PathNormalizeExt for Path {
-    fn normalize_lexically(&self) -> Result<PathBuf, NormalizeError> {
+    fn normalize_path(&self) -> Result<PathBuf, NormalizeError> {
         let mut lexical = PathBuf::new();
         let mut iter = self.components().peekable();
 

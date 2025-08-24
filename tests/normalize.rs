@@ -1,4 +1,4 @@
-use path_normalizer::{PathNormalizeExt};
+use path_normalizer::PathNormalizeExt;
 use std::path::{Path, PathBuf};
 
 #[test]

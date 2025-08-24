@@ -11,7 +11,7 @@ documentation = "https://docs.rs/path_normalizer"
 readme = "README.md"
 keywords = ["path", "normalize", "filesystem", "lexical", "rust"]
 categories = ["filesystem", "development-tools", "parsing"]
-exclude = ["/.github", "/tests", "/examples"]
+exclude = ["/.github"]
 
 [dependencies]
 

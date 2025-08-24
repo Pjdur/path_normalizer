@@ -1,0 +1,21 @@
+[package]
+name = "path_normalizer"
+version = "0.1.0"
+edition = "2024"
+authors = ["Pjdur"]
+description = "Lexically normalize paths in Rust without touching the filesystem."
+license = "MIT"
+repository = "https://github.com/pjdur/path_normalizer"
+homepage = "https://github.com/pjdur/path_normalizer"
+documentation = "https://docs.rs/path_normalizer"
+readme = "README.md"
+keywords = ["path", "normalize", "filesystem", "lexical", "rust"]
+categories = ["filesystem", "development-tools", "parsing"]
+exclude = ["/.github", "/tests", "/examples"]
+
+[dependencies]
+
+[package.metadata.docs.rs]
+all-features = true
+targets = ["x86_64-unknown-linux-gnu"]
+rustdoc-args = ["--cfg", "docsrs"]

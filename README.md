@@ -1,3 +1,5 @@
+**NOTE: The path normalization feature in this crate is implemented in [pathx](https://github.com/pjdur/pathx), a better and more maintained solution offering more features and capabilities. This crate will NOT be maintained anymore and is only provided for reference, or for people who want to see the code.**
+
 # path_normalizer
 
 [![Crates.io](https://img.shields.io/crates/v/path_normalizer.svg)](https://crates.io/crates/path_normalizer)
